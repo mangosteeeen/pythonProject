@@ -103,3 +103,71 @@
 #     n -= sum_li[i]
 #
 # print(n)
+
+# inputindex = int(input())
+# a = list(map(int,input().split()))
+# b = list(map(int,input().split()))
+# result = 0
+#
+# a.sort()
+# b.sort(reverse=True)
+#
+# for i in range(len(a)):
+#     result += a[i] * b[i]
+#
+#
+# print(result)
+
+# exchange = 1000 - int(input())
+# money_in = [500,100,50,10,5,1]
+# count = 0
+#
+# for i in range(len(money_in)):
+#     if(exchange >= money_in[i]):
+#         count += exchange//money_in[i]
+#         exchange -= exchange//money_in[i] * money_in[i]
+# print(count
+
+
+# n = int(input())
+# li = []
+# maxli = []
+# for i in range(n):
+#     li.append(int(input()))
+# li.sort(reverse=True)
+#
+# for i in range(n):
+#     maxli.append((i+1)*li[i])
+#
+# print(max(maxli))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
